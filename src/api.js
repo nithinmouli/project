@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Set up the base URL for your backend
 const API = axios.create({
-    baseURL: 'https://movie-review-omega-seven.vercel.app/api',  // Ensure this points to your backend
+    baseURL: 'https://project-31un.onrender.com',  // Ensure this points to your backend
 });
 
 // Send the JWT token in requests if authenticated
